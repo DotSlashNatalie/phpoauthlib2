@@ -78,9 +78,9 @@ I am licensing this under the MIT license. Which essentially grants you the righ
 
 # What this library is/is not
 
-This library is a simple interface to use PHP OAuth 2.0 in your web application.
-This library is designed to be as flexible as possible to use in any framework.
+- This library is a simple interface to use PHP OAuth 2.0 in your web application.
+- This library is designed to be as flexible as possible to use in any framework.
 
-This library is not designed to hold your hand to secure your client_id, client_secret, or other data.
-This library is not designed to be specific to a certain framework.
-This library is not designed to be abstract. The only class you should ever have to extend is OAuthDataProvider - and that is to create a "provider" for different OAuth providers (which merely contains the URLs to send for login, where to query for user data and normalizing data).
+- This library is not designed to hold your hand to secure your client_id, client_secret, or other data.
+- This library is not designed to be specific to a certain framework.
+- This library is not designed to be abstract. The only class you should ever have to extend is OAuthDataProvider - and that is to create a "provider" for different OAuth providers (which merely contains the URLs to send for login, where to query for user data and normalizing data).
